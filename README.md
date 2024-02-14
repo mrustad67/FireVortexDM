@@ -99,9 +99,9 @@ python3 -m venv ./.env
 source ./.env/bin/activate
 python3 -m pip install -r ./VortexDM2024/requirements.txt
 echo "source ./.env/bin/activate
-python3 ./VortexDM2024/vortexdm.py \$@ " > vortexdm.sh
-chmod +x ./vortexdm.sh
-./vortexdm.sh
+python3 ./VortexDM2024/vortexdm.py \$@ " > vortexdm2024.sh
+chmod +x ./vortexdm2024.sh
+./vortexdm2024.sh
 ```
 
 > Optionally create .desktop file and add VortexDM to your applications
