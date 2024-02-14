@@ -3,8 +3,8 @@
    id="svg11531"
    viewBox="0 0 390.00001 390.00001"
    version="1.0"
-   sodipodi:docname="vortexdm.svg"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="vortexdm2.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    width="390"
    height="390"
    inkscape:export-filename="..\..\vortexdm.png"
@@ -28,18 +28,31 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.7684262"
-     inkscape:cx="212.05295"
-     inkscape:cy="199.61251"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="1.5395044"
+     inkscape:cx="182.52627"
+     inkscape:cy="138.35621"
+     inkscape:window-width="1366"
+     inkscape:window-height="732"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showborder="true" />
+     showborder="true"
+     inkscape:pageshadow="2" />
   <defs
      id="defs11533">
+    <rect
+       x="65.626837"
+       y="51.06485"
+       width="2.0936247"
+       height="43.727708"
+       id="rect22137" />
+    <rect
+       x="0.20863609"
+       y="129.34977"
+       width="392.78585"
+       height="161.64939"
+       id="rect6741" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1009">
@@ -172,6 +185,27 @@
          fill="url(#radialGradient11632)"
          style="fill:url(#radialGradient1054);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.61199;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       transform="translate(-498.57,1043.3)"
+       id="text6739"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect6741)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:146.667px;line-height:1.65;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none"
+       x="-504.40891"
+       y="1285.9102"
+       id="text9343"><tspan
+         sodipodi:role="line"
+         id="tspan9341"
+         x="-504.40891"
+         y="1285.9102"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:146.667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">2024</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="translate(-498.57,1043.3)"
+       id="text22135"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect22137)" />
   </g>
   <metadata
      id="metadata107">
