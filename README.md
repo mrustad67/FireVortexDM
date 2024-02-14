@@ -1,4 +1,7 @@
 ![Logo](https://raw.githubusercontent.com/Sixline/VortexDM/main/icons/vortexdm.png)
+THIS IS EXACT COPY OF https://github.com/Sixline/VortexDM i JUST HAVE MADE CORRECTION TO COOMANDS CREATING LAUNCHER ON DESKTOP AND MENU
+--------------------------------------------------------------------------------------------------------------------------------------
+
 Vortex Download Manager (VortexDM) is an open-source Python Internet download manager with a high speed multi-connection engine. It downloads general files and videos. Developed in Python, based on "PycURL" and "youtube_dl".
 
 Original project, FireDM, by Mahmoud Elshahat.
@@ -44,6 +47,9 @@ Run VortexDM without any installation (recommended)
  - **Windows Portable Version** ([Download!](https://github.com/Sixline/VortexDM/releases/latest)):  
    Available in .zip format. Built with 64-bit Python 3.11+ and will only work on 64-bit Windows 10+.  
    Unzip and run VortexDM-GUI.exe, no installation required.
+
+I HAVE PLANS TO MAKE APPIMAGE OF VORTEXDM  WORKING ON IT WILL UPDATE WHEN DONE
+----------------------------------------------------------------------------------
    
  - **Linux Portable Version**  
   Removing this section for now as I am not familiar with building AppImages. Will revisit.
@@ -62,7 +68,8 @@ sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emoj
 ```sh
 python3 -m pip install vortexdm --user --upgrade --no-cache
 ```
-
+RUN FOLLOWING COMMANDS IN YOUR DEBIAN BASED LINUX TO INSSTALL VORTEXDM I HAVE TESTED ON LINUX MINT
+-------------------------------------------------------------------------------------------------------
 ## Running from source code inside a Python virtual environment (Linux Only - Debian/Ubuntu Based Shown):
 1- Check python version (minimum version required is 3.8): `python3 --version`
 
@@ -97,7 +104,7 @@ echo "[Desktop Entry]
 Name=VortexDM
 GenericName=VortexDM
 Comment=Vortex Download Manager
-Exec=$VortexDMLSPATH
+Exec=BASH -C $VortexDMLSPATH
 Icon=vortexdm
 Terminal=false
 Type=Application
@@ -108,7 +115,8 @@ cp ./VortexDM.desktop ~/.local/share/applications/
 mkdir -p ~/.local/share/icons/hicolor/48x48/apps/
 cp ./VortexDM/icons/vortexdm.png ~/.local/share/icons/hicolor/48x48/apps/vortexdm.png
 ```
-
+AFTER RUNNIG ABOVE COMMANDS YOU WILL HAVE A VORTOXDM AND SHORT CUTS IN MENUS
+---------------------------------------------------------------------------------
 # Known Issues:
 - Linux X Server will raise an error if some fonts are missing, especially emoji fonts - See Dependencies below
 
