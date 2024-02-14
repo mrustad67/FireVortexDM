@@ -94,12 +94,12 @@ sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emoj
   * Run VortexDM
 
 ```sh
-git clone https://github.com/Sixline/VortexDM
+git clone https://github.com/mrustad67/VortexDM2024
 python3 -m venv ./.env
 source ./.env/bin/activate
-python3 -m pip install -r ./VortexDM/requirements.txt
+python3 -m pip install -r ./VortexDM2024/requirements.txt
 echo "source ./.env/bin/activate
-python3 ./VortexDM/vortexdm.py \$@ " > vortexdm.sh
+python3 ./VortexDM2024/vortexdm.py \$@ " > vortexdm.sh
 chmod +x ./vortexdm.sh
 ./vortexdm.sh
 ```
@@ -108,9 +108,9 @@ chmod +x ./vortexdm.sh
 ```sh
 VortexDMLSPATH=$(realpath ./vortexdm.sh)
 echo "[Desktop Entry]
-Name=VortexDM
-GenericName=VortexDM
-Comment=Vortex Download Manager
+Name=VortexDM2024
+GenericName=VortexDM2024
+Comment=Vortex Download Manager 2024
 Exec=bash -c $VortexDMLSPATH
 Icon=vortexdm
 Terminal=false
@@ -118,9 +118,9 @@ Type=Application
 Categories=Network;
 Keywords=Internet;download
 " > VortexDM.desktop
-cp ./VortexDM.desktop ~/.local/share/applications/
+cp ./VortexDM2024.desktop ~/.local/share/applications/
 mkdir -p ~/.local/share/icons/hicolor/48x48/apps/
-cp ./VortexDM/icons/vortexdm.png ~/.local/share/icons/hicolor/48x48/apps/vortexdm.png
+cp ./VortexDM2024/icons/vortexdm.png ~/.local/share/icons/hicolor/48x48/apps/vortexdm.png
 ```
 AFTER RUNNIG ABOVE COMMANDS YOU WILL HAVE A VORTOXDM AND SHORT CUTS IN MENUS
 ---------------------------------------------------------------------------------
