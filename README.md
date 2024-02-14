@@ -67,7 +67,6 @@ sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emoj
 ```
 3- Install Vortex Download Manager using pip:
 
-NOTE PIP INSTALL IS BROKEN AS TILL NOW  TRY CLONING GIT METHOD GIVEN BELOW
 -------------------------------------------------------------------------------
 
 ```sh
