@@ -106,18 +106,18 @@ chmod +x ./vortexdm2024.sh
 
 > Optionally create .desktop file and add VortexDM to your applications
 ```sh
-VortexDMLSPATH=$(realpath ./vortexdm.sh)
+VortexDM2024LSPATH=$(realpath ./vortexdm2024.sh)
 echo "[Desktop Entry]
 Name=VortexDM2024
 GenericName=VortexDM2024
 Comment=Vortex Download Manager 2024
-Exec=bash -c $VortexDMLSPATH
+Exec=bash -c $VortexDM2024LSPATH
 Icon=vortexdm
 Terminal=false
 Type=Application
 Categories=Network;
-Keywords=Internet;download
-" > VortexDM.desktop
+Keywords=Internet;download;video audio downloader
+" > VortexDM2024.desktop
 cp ./VortexDM2024.desktop ~/.local/share/applications/
 mkdir -p ~/.local/share/icons/hicolor/48x48/apps/
 cp ./VortexDM2024/icons/vortexdm.png ~/.local/share/icons/hicolor/48x48/apps/vortexdm.png
