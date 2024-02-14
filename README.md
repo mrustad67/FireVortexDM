@@ -60,7 +60,6 @@ I HAVE PLANS TO MAKE APPIMAGE OF VORTEXDM  WORKING ON IT WILL UPDATE WHEN DONE
 2- Install required packages:
 ```sh
 sudo apt install ffmpeg libcurl4-openssl-dev libssl-dev python3-pip python3-pil python3-pil.imagetk python3-tk python3-dbus gir1.2-appindicator3-0.1
-sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emojione
 ```
 2.1- Install required Fonts:
 ```sh
@@ -82,9 +81,11 @@ RUN FOLLOWING COMMANDS IN YOUR DEBIAN BASED LINUX TO INSSTALL VORTEXDM I HAVE TE
 2- Install required packages:
 ```sh
 sudo apt install ffmpeg libcurl4-openssl-dev libssl-dev python3-pip python3-pil python3-pil.imagetk python3-tk python3-dbus gir1.2-appindicator3-0.1
+```
+2.1- Install required Fonts:
+```sh
 sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emojione
 ```
-
 3- Run below code to do the following:  
   * Clone this repo  
   * Create Python virtual environment  
